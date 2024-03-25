@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pizza_delivery.PizzaDeliveryController">
+   <children>
+      <Label alignment="CENTER" layoutX="102.0" layoutY="39.0" prefHeight="43.0" prefWidth="677.0" text="Pizza Delivery Service" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="57.0" />
+         </font>
+      </Label>
+      <Button fx:id="NewOrderButton" layoutX="283.0" layoutY="250.0" mnemonicParsing="false" onAction="#createOrderMenu" text="Create New Order">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
